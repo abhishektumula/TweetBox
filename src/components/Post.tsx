@@ -44,7 +44,7 @@ export function Post({ tweet }: props) {
             >
                 <img src={ReactIcon} alt="profile" className="h-10 w-10 m-2 rounded-full" />
                 <div className="flex flex-col gap-2 justify-start items-start flex-1 leading-normal tracking-normal">
-                    <div className="flex flex-row w-full justify-between items-center">
+                    < div className="flex flex-row w-full justify-between items-center">
                         <h1 className="text-left">
                             <span className="text-neutral-100 font-semibold text-lg hover:underline decoration-2">
                                 abhishek
@@ -71,14 +71,14 @@ export function Post({ tweet }: props) {
                             className="flex flex-row gap-1 sm:gap-2 justify-center items-center hover:text-blue-400"
                         >
                             <img src={MsgIcon} alt="icon1" className="w-6 h-6" />
-                            <h1 className="text-sm sm:text-lg md:text-lg lg:text-2xl">69</h1>
+                            <h1 className="text-sm sm:text-lg md:text-lg lg:text-2xl">09</h1>
                         </motion.button>
                         <motion.button
                             whileTap={{ scale: 0.95 }}
                             className="flex flex-row gap-1 sm:gap-2 justify-center items-center hover:text-blue-400"
                         >
                             <img src={RepeatIcon} alt="icon2" className="w-6 h-6" />
-                            <h1 className="text-sm sm:text-lg md:text-lg lg:text-2xl">69</h1>
+                            <h1 className="text-sm sm:text-lg md:text-lg lg:text-2xl">09</h1>
                         </motion.button>
                         <motion.button
                             onClick={() => {
@@ -92,14 +92,14 @@ export function Post({ tweet }: props) {
                             }}
                             className="flex flex-row gap-1 sm:gap-2 justify-center items-center"
                         >
-                            {liked ? <motion.img whileTap={{scale : 0.5}} src={HeartIconFill} alt="icon3" className="w-6 h-6" /> : <motion.img whileTap={{scale : 0.5}} src={HeartIcon} alt="icon3" className="w-6 h-6" />}
+                            {liked ? <motion.img whileTap={{ scale: 0.5 }} src={HeartIconFill} alt="icon3" className="w-6 h-6" /> : <motion.img whileTap={{ scale: 0.5 }} src={HeartIcon} alt="icon3" className="w-6 h-6" />}
                             <h1 className="text-sm sm:text-lg md:text-xl lg:text-2xl">{likeCount}</h1>
                         </motion.button>
                         <motion.button
                             className="flex flex-row gap-1 sm:gap-2 justify-center items-center hover:text-blue-400"
                         >
                             <img src={ChartIcon} alt="icon4" className="w-6 h-6" />
-                            <h1 className="text-sm sm:text-lg md:text-lg lg:text-2xl">69</h1>
+                            <h1 className="text-sm sm:text-lg md:text-lg lg:text-2xl">09</h1>
                         </motion.button>
                         <motion.button
                             className="flex flex-row gap-1 sm:gap-4 justify-center items-center hover:text-blue-400"
